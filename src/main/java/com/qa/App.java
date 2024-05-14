@@ -21,8 +21,8 @@ public class App
 
         Scanner myInput = new Scanner(System.in);
         System.out.println("Enter your name");
-        //String userName myInput.nextLine();
-        //System.out.println("Hi there " + userName);
+        String userName = myInput.nextLine();
+        System.out.println("Hi there " + userName);
     }
 
 
