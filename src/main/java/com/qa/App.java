@@ -23,10 +23,11 @@ public class App
         System.out.println("Enter your name");
         String userName = myInput.nextLine();
         System.out.println("Hi there " + userName);
+        System.out.println("Counting to 5");
 
         for(int i =0; i < 6; i++){
 
-            System.out.println("Counting to 5");
+            
             System.out.println(i);
         }
     }
