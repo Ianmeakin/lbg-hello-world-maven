@@ -1,4 +1,6 @@
+
 package com.qa;
+import java.util.Scanner;
 
 /**
  * Hello world!
@@ -16,7 +18,14 @@ public class App
         System.out.println(sayHelloToSomeone("Ian"));
         System.out.println(sayHelloToSomeone("Pete"));
         System.out.println(sayGoodbye());
+
+        Scanner myInput = new Scanner(System.in);
+        System.out.println("Enter your name");
+        Srting userName myInput.nextLine();
+        System.out.println("Hi there " + userName);
     }
+
+
 
     public static String sayHello(){
         return "Hello World!";
