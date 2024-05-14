@@ -19,8 +19,8 @@ public class App
         System.out.println(sayHelloToSomeone("Pete"));
         System.out.println(sayGoodbye());
 
-        //Scanner myInput = new Scanner(System.in);
-        //System.out.println("Enter your name");
+        Scanner myInput = new Scanner(System.in);
+        System.out.println("Enter your name");
         //String userName myInput.nextLine();
         //System.out.println("Hi there " + userName);
     }
