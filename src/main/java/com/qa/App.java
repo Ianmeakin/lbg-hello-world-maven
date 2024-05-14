@@ -26,7 +26,7 @@ public class App
 
         for(int i =0; i < 6; i++){
 
-            System.out.println("Counting to 5")
+            System.out.println("Counting to 5");
             System.out.println(i);
         }
     }
