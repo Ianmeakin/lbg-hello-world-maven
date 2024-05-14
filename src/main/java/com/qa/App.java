@@ -29,7 +29,10 @@ public class App
 
             
             System.out.println(i);
+            System.out.println("Hello Adam looking i am counting")
         }
+
+      
     }
 
 
