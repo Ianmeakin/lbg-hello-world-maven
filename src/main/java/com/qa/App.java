@@ -1,6 +1,6 @@
 
 package com.qa;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 /**
  * Hello world!
@@ -19,18 +19,18 @@ public class App
         System.out.println(sayHelloToSomeone("Pete"));
         System.out.println(sayGoodbye());
 
-        Scanner myInput = new Scanner(System.in);
-        System.out.println("Enter your name");
-        String userName = myInput.nextLine();
-        System.out.println("Hi there " + userName);
-        System.out.println("Counting to 5");
+        //Scanner myInput = new Scanner(System.in);
+        //System.out.println("Enter your name");
+        //String userName = myInput.nextLine();
+        //System.out.println("Hi there " + userName);
+        System.out.println("Hello adam");
 
-        for(int i =0; i < 6; i++){
+        //for(int i =0; i < 6; i++){
 
             
-            System.out.println(i);
-            System.out.println("Hello Adam looking i am counting")
-        }
+            //System.out.println(i);
+          //  System.out.println("Hello Adam looking i am counting")
+        //}
 
       
     }
