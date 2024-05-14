@@ -24,8 +24,9 @@ public class App
         String userName = myInput.nextLine();
         System.out.println("Hi there " + userName);
 
-        for(int i =0; i < 5; i++){
+        for(int i =0; i < 6; i++){
 
+            System.out.println("Counting to 5")
             System.out.println(i);
         }
     }
